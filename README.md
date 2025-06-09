@@ -1,27 +1,25 @@
 # Fruit-Image-Classification-with-Deep-Learning
 
-# Fruit Image Classification with CNN and MobileNetV2
-
 **Authors:** Gayoung (Ellena) Ko, Sijia (Neveah) Zhan  
 
-This project classified fruit images using a custom CNN and transfer learning with MobileNetV2. We compared data augmentation strategies and optimizers, and evaluated model generalization using real-world images we collected ourselves.
+This project classifies fruit images using a custom CNN and transfer learning with MobileNetV2. We compare data augmentation strategies and optimizers, and evaluate model generalization using real-world images we collected ourselves.
 
 ## Dataset
 We used the [Fruits-360 dataset](https://www.kaggle.com/datasets/moltean/fruits) from Kaggle.
 
-## File(s) Included
-1. ds340_project (1).ipynb : 
-   This notebook contains the complete code with model training, evalation, and the results.
-2. ds340_project_essay1 : 
-   This document contains detailed insights into the methodology, results, and conclusions of the project. 
+## Files Included
+1. `ds340_project (1).ipynb`:  
+   Jupyter Notebook containing the complete code for model training, evaluation, and results.
+
+2. `ds340_project_essay1`:  
+   A written report detailing the methodology, experimental design, results, and conclusions of the project.
 
 ## Key Findings
-- Data augmentation increased model robustness and reduced overfitting.
-- RMSprop outperformed both Adam and SGD. 
+- Data augmentation improved model robustness and reduced overfitting.
+- RMSprop outperformed both Adam and SGD.
 - The pre-trained MobileNetV2 model achieved higher accuracy than the custom CNN, but struggled with real-world images due to domain mismatch.
-- Fine-tuning MobileNetV2 improved performance on real-world images, but the results suggest that training on more diverse, real-world data is essential for true generalization.
-
+- Fine-tuning MobileNetV2 improved performance on real-world data, but findings suggest that additional diverse training data is necessary for true generalization.
 
 ## Future Work
-- Collect more diverse, noisy data.
-- Explore ensemble learning for better generalization.
+- Collect and train on more diverse, noisy datasets.
+- Explore ensemble learning methods to improve generalization performance.
