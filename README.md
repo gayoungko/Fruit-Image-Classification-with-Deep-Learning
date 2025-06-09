@@ -9,6 +9,12 @@ This project classifies fruit images using a custom CNN and transfer learning wi
 ## Dataset
 We used the [Fruits-360 dataset](https://www.kaggle.com/datasets/moltean/fruits) from Kaggle.
 
+## File(s) Included
+1. ds340_project (1).ipynb
+   This notebook contains the complete code with model training, evalation, and the results.
+2. ds340_project_essay1
+   This document contains more detailed insights into the methodology, results, and conclusions of the project. 
+
 ## Key Findings
 - Data augmentation increased model robustness and reduced overfitting.
 - RMSprop outperformed both Adam and SGD. 
