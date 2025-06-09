@@ -4,7 +4,7 @@
 
 **Authors:** Gayoung (Ellena) Ko, Sijia (Neveah) Zhan  
 
-This project classifies fruit images using a custom CNN and transfer learning with MobileNetV2. We compare data augmentation strategies and optimizers, and evaluate model generalization using real-world images we collected ourselves.
+This project classified fruit images using a custom CNN and transfer learning with MobileNetV2. We compared data augmentation strategies and optimizers, and evaluated model generalization using real-world images we collected ourselves.
 
 ## Dataset
 We used the [Fruits-360 dataset](https://www.kaggle.com/datasets/moltean/fruits) from Kaggle.
