@@ -14,6 +14,9 @@ We used the [Fruits-360 dataset](https://www.kaggle.com/datasets/moltean/fruits)
 2. `ds340_project_essay1`:  
    A written report detailing the methodology, experimental design, results, and conclusions of the project.
 
+3. `By Gayoung (Ellena) Ko, (3).pdf` :
+   Final presentation slides of the project.
+
 ## Key Findings
 - Data augmentation improved model robustness and reduced overfitting.
 - RMSprop outperformed both Adam and SGD.
