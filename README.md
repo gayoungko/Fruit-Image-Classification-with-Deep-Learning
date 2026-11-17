@@ -8,13 +8,13 @@ This project classifies fruit images using a custom CNN and transfer learning wi
 We used the [Fruits-360 dataset](https://www.kaggle.com/datasets/moltean/fruits) from Kaggle.
 
 ## Files Included
-1. `ds340_project (1).ipynb`:  
+1. [`fruit_classification.ipynb`](fruit_classification.ipynb):  
    Jupyter Notebook containing the complete code for model training, evaluation, and results.
 
-2. `ds340_project_essay1`:  
+2. [`final_report.pdf`](final_report.pdf):  
    A written report detailing the methodology, experimental design, results, and conclusions of the project.
 
-3. `By Gayoung (Ellena) Ko, (3).pdf` :
+3. [`final_presentation.pdf`](final_presentation.pdf):  
    Final presentation slides of the project.
 
 ## Methods
